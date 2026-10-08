@@ -23,10 +23,10 @@ controller_node:
       use_dynamic_window: false
       allow_reversing: false
       # Lookahead
-      lookahead_dist: 0.6
-      min_lookahead_dist: 0.3
-      max_lookahead_dist: 0.9
-      lookahead_time: 1.2
+      lookahead_dist: 1.0
+      min_lookahead_dist: 0.5
+      max_lookahead_dist: 1.5
+      lookahead_time: 1.5
       use_velocity_scaled_lookahead_dist: true
       # Rotate to heading
       use_rotate_to_heading: true

@@ -9,6 +9,10 @@ Gazebo simulation (Harmonic or newer) of PAL Robotics' TIAGo in the AWS RoboMake
 
 The simulated TIAGo has its mobile base (pmb2), lifting torso, pan-tilt head with an RGBD camera, 7-DoF arm with the PAL gripper and wrist force/torque sensor, base laser, sonars and IMU. The base drives, and the torso, head, arm and gripper move under ros2_control.
 
+## Supported ROS 2 distributions
+
+This playground needs Gazebo Harmonic or newer, so it runs on Jazzy and later distributions, but not on Humble, whose Gazebo is Fortress. EasyNav itself (core and plugins) does run on Humble: only this simulation does not.
+
 ## Build
 
 From the ROS 2 workspace root:
